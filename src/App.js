@@ -21,7 +21,9 @@ import { collection,doc,getDocs } from "firebase/firestore";
   },[])
   return (
     <div>
-      <input type='text' />
+      <input type='text' placeholder='Enter your name' />
+      <input type='number' placeholder='Enter your name' />
+      <button>Create User</button>
       {users.map((user)=>{
         return(
         <div>
